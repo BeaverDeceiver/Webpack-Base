@@ -9,18 +9,20 @@
 @import url(./row-3/row-3.css);
 @import url(./row-4/row-4.css);
 
+$background-image: url(../assets/background/banner-background_59.png) no-repeat;
+$background-color: #666155;
+$container-width: 1170px;
+
 body {
-  background: url(../assets/background/banner-background_59.png) no-repeat,
-  #666155;
+  background: $background-image, $background-color;
 }
 
 html {
   scrollbar-width: none;
 }
 
-/* layout.css */
 .container {
-  width: 1170px;
+  width: $container-width;
   margin: 0 auto;
 }
 
