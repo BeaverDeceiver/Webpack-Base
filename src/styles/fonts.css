@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "static-page-3-font";
+  font-weight: normal;
+  font-style: normal;
+
+  font-display: block;
+  src: url("fonts/static-page-3-font.eot?574ug5");
+  src: url("fonts/static-page-3-font.eot?574ug5#iefix") format("embedded-opentype"),
+  url("fonts/static-page-3-font.ttf?574ug5") format("truetype"),
+  url("fonts/static-page-3-font.woff?574ug5") format("woff"),
+  url("fonts/static-page-3-font.svg?574ug5#static-page-3-font") format("svg");
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  text-transform: none;
+  /* use !important to prevent issues with browser extensions that change fonts */
+
+  font-family: "static-page-3-font" !important;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: never;
+}
+
+.icon-user:before {
+  content: "\f007";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-phone-square:before {
+  content: "\f098";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-shield:before {
+  content: "\f132";
+}
+.icon-fire-extinguisher:before {
+  content: "\f134";
+}
+.icon-rocket:before {
+  content: "\f135";
+}
+.icon-long-arrow-right:before {
+  content: "\f178";
+}

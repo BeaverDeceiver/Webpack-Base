@@ -1,0 +1,31 @@
+.social-links {
+  float: right;
+}
+
+.social-links__item {
+  display: table-cell;
+
+  padding-left: 10px;
+
+  vertical-align: middle;
+}
+
+.social-links__link {
+  display: flex;
+
+  width: 43px;
+  height: 43px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #ffffff;
+  border-radius: 21.5px;
+  background: #e84c3d;
+
+  font-size: 20px;
+
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}

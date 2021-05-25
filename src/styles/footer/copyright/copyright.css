@@ -1,0 +1,18 @@
+.copyright {
+  color: #767c7e;
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.copyright__designer-link {
+  color: #e84c3d;
+}
+
+.copyright__reference-link {
+  color: #767c7e;
+}
+
+.copyright__reference-link:hover {
+  color: #b2bcbf;
+}

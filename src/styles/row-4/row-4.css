@@ -1,0 +1,83 @@
+@import url(form/form.css);
+@import url(directions/directions.css);
+
+.row-4 {
+  background-color: #ffffff;
+}
+
+.row-4__inner-container {
+  display: flex;
+
+  padding-top: 70px;
+  padding-bottom: 52px;
+}
+
+.row-4__content-container {
+  flex: 1;
+
+  margin-right: 30px;
+}
+
+.row-4__content-container:last-child {
+  margin-right: 0;
+}
+
+.row-4__header {
+  margin-bottom: 26px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #202628;
+
+  font-family: "Fjalla One";
+  font-size: 21px;
+  font-weight: 400;
+}
+
+
+
+.row-4__article-container {
+  margin-top: 29px;
+  margin-bottom: 23px;
+}
+
+.row-4__article-image {
+  float: left;
+
+  width: 69px;
+  height: 70px;
+
+  border-radius: 35px;
+  background-color: #e7e7e7;
+  background-position: center;
+}
+
+.image-1 {
+  background-image: url(../../assets/row-4_asset-1.jpg);
+}
+
+.image-2 {
+  background-image: url(../../assets/row-4_asset-2.jpg);
+}
+
+.image-3 {
+  background-image: url(../../assets/row-4_asset-3.jpg);
+}
+
+.row-4__text-container {
+  margin-left: 70px;
+  padding-top: 4px;
+  padding-left: 30px;
+}
+
+.row-4__article-text {
+  hyphens: auto;
+
+  color: #767c7e;
+
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}

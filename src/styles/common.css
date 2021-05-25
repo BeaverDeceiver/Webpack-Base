@@ -1,0 +1,45 @@
+.text_light {
+  hyphens: auto;
+
+  color: #767c7e;
+
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #202628;
+
+  font-family: "Fjalla One", sans-serif;
+  font-size: 21px;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-link_orange {
+  color: #e84c3d;
+}
+
+.text-link_orange:hover {
+  color: #ea1500;
+}
+
+.button-link_orange {
+  background-color: #e84c3d;
+}
+
+.button-link_orange:hover {
+  background-color: #ea1500;
+}
+
+.separator {
+  color: #e7e7e7;
+}

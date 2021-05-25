@@ -1,0 +1,26 @@
+@import url(copyright/copyright.css);
+@import url(secondary-navigation/secondary-navigation.css);
+@import url(social-links/social-links.css);
+
+.footer {
+  background: #202628;
+
+  font-family: "Lato", sans-serif;
+}
+
+.footer__content-container {
+  display: table-cell;
+
+  vertical-align: middle;
+}
+
+.footer__inner-container {
+  display: table;
+
+  padding-top: 79px;
+  padding-bottom: 81px;
+}
+
+.footer__navigation-container {
+  margin-top: -8px;
+}

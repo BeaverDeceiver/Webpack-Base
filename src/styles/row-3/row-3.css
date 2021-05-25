@@ -1,0 +1,161 @@
+.row-3 {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.row-3__inner-container {
+  display: flex;
+
+  padding-top: 48px;
+  padding-bottom: 50px;
+
+  border-radius: 10px;
+  background-color: #e84c3d;
+
+  align-content: center;
+  justify-content: space-between;
+}
+
+.row-3__testimonial-container {
+  flex: 1;
+
+  margin-left: 30px;
+}
+
+.row-3__testimonial-icon {
+  display: flex;
+  float: left;
+
+  width: 69px;
+  height: 70px;
+  margin-right: 28px;
+
+  text-align: center;
+
+  color: #ffffff;
+  border-radius: 35px;
+  background: #202628;
+
+  font-size: 32px;
+
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-3__header {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  font-family: "Fjalla One", sans-serif;
+  font-size: 21px;
+}
+
+.row-3__testimonial-header {
+  padding-bottom: 16px;
+}
+
+.row-3__testimonial-paragraph {
+  display: table;
+
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.row-3__testimonial-author {
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.row-3__subscribe-container {
+  flex: 1;
+
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.row-3__subscribe-header {
+  padding-bottom: 27px;
+}
+
+.row-3__email-input {
+  width: calc(100% - 19px - 9px);
+  margin-right: 9px;
+  padding-top: 13px;
+  padding-right: 11px;
+  padding-bottom: 13px;
+  padding-left: 19px;
+
+  border-style: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.row-3__email-input::placeholder {
+  color: #9faaad;
+
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: italic;
+}
+
+.row-3__email-input:focus {
+  outline: none;
+}
+
+.row-3__subscribe-button {
+  display: flex;
+
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #202628;
+
+  font-family: "Fjalla One";
+  font-size: 15px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-3__subscribe-button:hover {
+  background-color: #333d40;
+}
+
+.row-3__subscription-form {
+  display: table;
+}
+
+.row-3__input-container,
+.row-3__button-container {
+  display: table-cell;
+
+  vertical-align: top;
+}
+
+.row-3__input-container {
+  width: 100%;
+  padding-right: 11px;
+}
+
+.row-3__button-icon {
+  padding-left: 4px;
+
+  font-size: 15px;
+}

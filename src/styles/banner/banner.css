@@ -1,0 +1,54 @@
+.banner {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.banner__inner-container {
+  padding-top: 290px;
+  padding-bottom: 63px;
+}
+
+.banner__arrow-item {
+  float: left;
+
+  margin-right: 1px;
+}
+
+.banner__arrow-list {
+  margin-bottom: 27px;
+}
+
+.banner__caption-link {
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  color: #e84c3d;
+
+  font-family: "Fjalla One";
+  font-size: 15px;
+  font-weight: 400;
+  /* margin-top: 20px; */
+}
+
+.banner__caption-text {
+  margin-top: 18px;
+  margin-bottom: 14px;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #e7e7e7;
+
+  font-size: 30px;
+}
+
+.banner__line {
+  stroke: #ffffff;
+  stroke-width: 2;
+}
+
+.arrow-left {
+  content: url("../../assets/cir_left.png");
+}
+.arrow-right {
+  content: url("../../assets/cir_right.png");
+}

@@ -1,0 +1,32 @@
+@import url(./reset.css);
+@import url(./common.css);
+@import url(./header/header.css);
+@import url(./footer/footer.css);
+@import url(./fonts.css);
+@import url(./banner/banner.css);
+@import url(./row-1/row-1.css);
+@import url(./row-2/row-2.css);
+@import url(./row-3/row-3.css);
+@import url(./row-4/row-4.css);
+
+body {
+  background: url(../assets/background/banner-background_59.png) no-repeat,
+  #666155;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+/* layout.css */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.clear-fix::after {
+  display: table;
+  clear: both;
+
+  content: "";
+}

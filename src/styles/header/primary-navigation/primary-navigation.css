@@ -1,0 +1,30 @@
+.primary-navigation__item,
+.primary-navigation__item_selected {
+  float: left;
+}
+
+.primary-navigation__link {
+  display: inline-block;
+
+  padding: 35px 22px 32px 21px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #e7e7e7;
+
+  font-size: 13px;
+  line-height: 1em;
+}
+
+.primary-navigation__item_selected {
+  background: #e84c3d;
+}
+
+.primary-navigation__item_selected:hover {
+  background-color: #ea1500;
+}
+
+.primary-navigation__item:hover {
+  background-color: #333d40;
+}
